@@ -92,7 +92,7 @@ public class Visualizzatore extends javax.swing.JFrame {
             vettCanvas[i].setBackground(Color.red);
             vettCanvas[i].setSize(30,30);
             vettCanvas[i].setLocation(i*vettCanvas[i].getWidth()+i*2, 100);
-
+            vettCanvas[i].setName("label"+i);
             c.add(vettCanvas[i]);
         }
         
